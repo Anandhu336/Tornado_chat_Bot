@@ -1,0 +1,170 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "What_is_AI",
+      "patterns": [
+        "What is AI?",
+        "Define AI",
+        "Tell me about artificial intelligence"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) is a collection of technologies that enable machines to perform tasks that are similar to human intelligence."
+      ]
+    },
+    {
+      "tag": "AI_language",
+      "patterns": [
+        "Which language is AI written in?",
+        "What programming language is AI written in?",
+        "Tell me the language used for AI"
+      ],
+      "responses": [
+        "I am written in Python language."
+      ]
+    },
+    {
+      "tag": "What_can_AI_do",
+      "patterns": [
+        "What can AI do?",
+        "Tell me the capabilities of AI",
+        "What are the uses of AI?"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) can do many things, including: \n- Automate tasks like data entry and customer service. \n- Improve decision-making by analyzing data. \n- Create digital art. \n- Recognize faces. \n- Drive cars. \n- Have conversations. \n- Predict purchases. \n- Analyze images. \n- Translate text. \n- Generate content. \n- Create transcripts."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Understanding Tornadoes",
+      "patterns": [
+        "What is a tornado?",
+        "How do tornadoes form?",
+        "What are the common signs that a tornado is approaching?",
+        "How are tornadoes measured in terms of strength?",
+        "What is the Enhanced Fujita (EF) scale?",
+        "What are the different types of tornadoes?",
+        "How long do tornadoes typically last?",
+        "What time of year are tornadoes most common?",
+        "How far can a tornado travel?",
+        "What is the difference between a tornado watch and a tornado warning?"
+      ],
+      "responses": [
+        "A tornado is a rapidly rotating column of air that extends from a thunderstorm to the ground, often visible as a funnel cloud.",
+        "Tornadoes form when warm, moist air collides with cooler, dry air, creating a rotating updraft called a mesocyclone.",
+        "Common signs include a dark, greenish sky, large hail, a loud roar, and a visible funnel cloud.",
+        "Tornadoes are measured by the Enhanced Fujita (EF) scale, estimating wind speeds based on damage.",
+        "The Enhanced Fujita (EF) scale categorizes tornadoes from EF0 (minimal damage) to EF5 (incredible damage).",
+        "Types include supercell tornadoes, waterspouts, landspouts, and gustnadoes.",
+        "Most tornadoes last around 10 minutes, though some can last longer.",
+        "Tornadoes are most frequent from April to June in the U.S., but can occur any time.",
+        "Tornadoes can travel just a few miles or over 100 miles, depending on their strength.",
+        "A Tornado Watch means conditions are favorable; a Tornado Warning means one has been sighted or indicated by radar."
+      ]
+    },
+    {
+      "tag": "Tornado Regions",
+      "patterns": [
+        "Which regions in the world are most prone to tornadoes?",
+        "What is Tornado Alley?",
+        "Why are some areas more susceptible to tornadoes than others?",
+        "What are the global hotspots for tornadoes?",
+        "How does geography influence tornado formation?",
+        "Can tornadoes occur outside Tornado Alley?",
+        "How often do tornadoes occur in urban areas?",
+        "Are tornadoes common in mountainous regions?",
+        "Which country has the highest number of tornadoes annually?",
+        "How does climate change impact tornado frequency and severity?"
+      ],
+      "responses": [
+        "The U.S., Canada, northern and central Europe, Australia, Bangladesh, and South Africa are most prone.",
+        "Tornado Alley is in the central U.S., including parts of Texas, Oklahoma, Kansas, Nebraska, and South Dakota.",
+        "Susceptibility is due to meteorological and geographical conditions; flat terrain aids tornado formation.",
+        "Hotspots include the U.S., Canada, parts of Europe, Australia, Bangladesh, and South Africa.",
+        "Flat terrains allow air mass mixing; proximity to warm waters provides moisture for thunderstorms.",
+        "Yes, tornadoes can occur outside Tornado Alley and have been recorded in all 50 U.S. states.",
+        "Tornadoes occur less frequently in urban areas due to smaller land area but can cause significant damage.",
+        "Tornadoes are less common in mountains due to disrupted airflow but can occur in valleys.",
+        "The U.S. has the highest number of tornadoes annually, averaging about 1,200 per year.",
+        "Climate change may increase the conditions for severe thunderstorms, potentially altering tornado frequency."
+      ]
+    },
+    {
+      "tag": "Tornado Safety",
+      "patterns": [
+        "What should you do if you receive a tornado warning?",
+        "Where is the safest place to take shelter during a tornado?",
+        "What items should be in your tornado safety kit?",
+        "What should you do if you are in a mobile home during a tornado?",
+        "How can you protect your pets during a tornado?",
+        "Why is it important to avoid windows during a tornado?",
+        "What should you do if you are driving during a tornado?",
+        "How can you prepare your home for a tornado?",
+        "What are the most common injuries during a tornado, and how can they be prevented?",
+        "Why should you avoid overpasses during a tornado?"
+      ],
+      "responses": [
+        "Seek shelter in a basement or interior room on the lowest floor, away from windows.",
+        "The safest place is a basement or an interior room on the lowest floor, away from windows.",
+        "Include a weather radio, flashlights, first aid kit, water, food, medications, and sturdy shoes.",
+        "Leave immediately and find a sturdy building or storm shelter.",
+        "Keep them with you in a safe room on a leash or in a carrier.",
+        "Windows can shatter, creating dangerous debris; avoid them during a tornado.",
+        "Seek shelter; if unavailable, lie flat in a ditch, covering your head.",
+        "Secure loose items, reinforce windows and doors, and have a safety kit ready.",
+        "Injuries from debris can be prevented by taking shelter and covering your head.",
+        "Overpasses can create wind tunnels; avoid them and find lower shelter."
+      ]
+    }
+  ]
+}
